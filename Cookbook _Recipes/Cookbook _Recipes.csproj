@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Cookbook__Recipes</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Cookman.jpg" />
+    <None Remove="борщ.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Cookman.jpg" />
+    <Resource Include="борщ.jpg" />
+  </ItemGroup>
+
+</Project>
